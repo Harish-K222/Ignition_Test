@@ -1,0 +1,75 @@
+[
+  {
+    "valueSource": "memory",
+    "name": "TestTag",
+    "tagGroup": "Default",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "Pressure LO SP",
+    "defaultValue": 10,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "Pressure HI SP",
+    "defaultValue": 150,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "alarms": [
+      {
+        "mode": "BelowValue",
+        "name": "Pressure Low",
+        "priority": "Medium",
+        "setpointA": {
+          "bindType": "Tag",
+          "value": "[~]Pressure LO SP"
+        }
+      },
+      {
+        "mode": "AboveValue",
+        "name": "Pressure High",
+        "label": "Pressure",
+        "priority": "Medium",
+        "setpointA": {
+          "bindType": "Tag",
+          "value": "[~]Pressure HI SP"
+        }
+      }
+    ],
+    "name": "Pressure",
+    "defaultValue": 120,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 900.0,
+        "notes": "Tank High level reached open overflow valve",
+        "name": "High Level",
+        "label": "",
+        "priority": "High"
+      },
+      {
+        "mode": "BadQuality",
+        "name": "Tank Level tag quality",
+        "priority": "High"
+      },
+      {
+        "mode": "BelowValue",
+        "setpointA": 100.0,
+        "notes": "Tank low level reached open filler valve",
+        "name": "Low Level",
+        "priority": "Medium"
+      }
+    ],
+    "name": "Tank Level",
+    "defaultValue": 400,
+    "tagType": "AtomicTag"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "description": "Driver for the popular embedded database system.",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2026-04-02T11:28:20Z"
+    },
+    "uuid": "18bb50ab-3231-4b52-a516-b6a54b54427b",
+    "lastModificationSignature": "6a3ba621fdc8a1b95c7e2f498f017c5d5901cb0347cb54eb6a1f31926fff022c",
+    "enabled": true
+  }
+}

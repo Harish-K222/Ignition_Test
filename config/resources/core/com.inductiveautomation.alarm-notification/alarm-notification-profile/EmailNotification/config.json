@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "type": "EmailNotificationProfileType"
+  },
+  "settings": {
+    "advanced": {
+      "debugModeEnabled": false,
+      "smtpTimeout": 10000,
+      "startTlsEnabled": false
+    },
+    "auditProfile": null,
+    "settings": {
+      "emailProfile": null,
+      "hostname": "smtp.gmail.com",
+      "password": {
+        "data": {
+          "ciphertext": "1p113GKoPAaQNB7r",
+          "encrypted_key": "l5zP1M1xupimRtV21cnPALkXynPy0kqI2Nj5pMVUItljLsR4ylsrzQ",
+          "iv": "t4BD3fvgOaqOxrMx",
+          "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzc1MTI5MzA0LCJ6aXAiOiJERUYifQ",
+          "tag": "ncQBQBy0iHRwAKEdQqAPXQ"
+        },
+        "type": "Embedded"
+      },
+      "port": 465,
+      "sslEnabled": true,
+      "useSmtpProfile": false,
+      "username": "harishkk7878@gmail.com"
+    },
+    "twoWay": {
+      "gatewayAddress": null,
+      "httpsLinkEnabled": false,
+      "twoWayEnabled": false
+    },
+    "twoWayPop3": {
+      "pop3CustomMessage": null,
+      "pop3DeleteMessage": false,
+      "pop3Hostname": null,
+      "pop3PollingInterval": 60000,
+      "pop3Port": 110,
+      "pop3SslEnabled": false,
+      "pop3TwoWayEnabled": false,
+      "pop3Username": null
+    }
+  }
+}

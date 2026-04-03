@@ -1,0 +1,8 @@
+{
+  "config": {
+    "drivingComparisonValue": 1.0,
+    "drivingExpression": "{[default]MachineStatus}",
+    "mode": "Driven",
+    "rate": 5000.0
+  }
+}

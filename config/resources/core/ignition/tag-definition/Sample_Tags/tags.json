@@ -1,0 +1,56 @@
+[
+  {
+    "valueSource": "memory",
+    "dataType": "String",
+    "documentation": "this ia metadata space adding string tag ",
+    "name": "stringTag1",
+    "defaultValue": "\u0027\u0027qwee",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "intTag1",
+    "defaultValue": 4,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "historyProvider": "MySql_test1",
+    "name": "hysTag1",
+    "historyEnabled": true,
+    "defaultValue": 4,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "historyProvider": "MySql_test1",
+    "name": "hysTag2",
+    "historyEnabled": true,
+    "defaultValue": 4,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "historyProvider": "MySql_test1",
+    "name": "hysTag3",
+    "historyEnabled": true,
+    "defaultValue": 4,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "historyProvider": "MySql_test1",
+    "name": "hysTag4",
+    "historyEnabled": true,
+    "defaultValue": 4,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "historyProvider": "MySql_test1",
+    "name": "hysTag5",
+    "historyEnabled": true,
+    "defaultValue": 4,
+    "tagType": "AtomicTag"
+  }
+]

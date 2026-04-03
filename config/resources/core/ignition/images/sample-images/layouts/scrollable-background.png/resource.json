@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "scrollable-background.png"
+  ],
+  "attributes": {
+    "width": -1,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2026-04-02T11:28:20Z"
+    },
+    "size": 1623753,
+    "lastModificationSignature": "f5e0295cf16f76bed32482a3e82f1e43b4413ceb582ce4760638e6df99f83237",
+    "height": -1
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "typeColor": -16776999,
+    "name": "Motor",
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "name": "Setpoint",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Speed",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Sensor",
+    "parameters": {
+      "SensorNum": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "name": "Humidity",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Temprature",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

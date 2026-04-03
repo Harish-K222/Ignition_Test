@@ -1,0 +1,1 @@
+DELETE FROM employeedata1 where id = :id

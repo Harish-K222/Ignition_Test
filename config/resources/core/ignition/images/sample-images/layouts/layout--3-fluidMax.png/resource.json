@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "layout--3-fluidMax.png"
+  ],
+  "attributes": {
+    "width": -1,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2026-04-02T11:28:20Z"
+    },
+    "size": 17915,
+    "lastModificationSignature": "c5722ed3b1b9db97a8a64fa089f1dea0a4a8b2108a23aaa2b5e426c1b70a38d1",
+    "height": -1
+  }
+}

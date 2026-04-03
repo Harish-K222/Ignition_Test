@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "description": "Sample tags for the Quick Start project",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2026-04-02T11:28:24Z"
+    },
+    "uuid": "dea314ef-8e82-429e-aa3b-41fabb40d14e",
+    "lastModificationSignature": "aae84b98016dcd78444e8eb4ff5a7ca9498878f89f069dde87d8378db88084b1",
+    "enabled": true
+  }
+}

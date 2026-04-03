@@ -1,0 +1,2 @@
+version=11.1.52
+license=trial

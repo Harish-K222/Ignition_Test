@@ -1,0 +1,120 @@
+[
+  {
+    "valueSource": "memory",
+    "dataType": "Float4",
+    "name": "memTag1",
+    "defaultValue": 10.0,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Float4",
+    "name": "memTag2_c",
+    "defaultValue": 37.0,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "({[~]memTag2_c} * (9/5)) + 32",
+    "dataType": "Float4",
+    "name": "expTag1_f",
+    "executionMode": "EventDriven",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "reference",
+    "dataType": "Float8",
+    "sourceTagPath": "[~]Ramp/Ramp0",
+    "name": "ref_Tag",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "memTag2",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Float8",
+    "name": "memTag3",
+    "defaultValue": 89.6,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "derived",
+    "deriveExpressionGetter": "({source} - 32)*(5/9)",
+    "dataType": "Float8",
+    "deriveExpressionSetter": "{value}*(9/5) + 32",
+    "sourceTagPath": "[~]memTag3",
+    "name": "drivedTag2",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "TestTagGroup",
+    "tagGroup": "New Tag Group",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Boolean",
+    "name": "MachineStatus",
+    "defaultValue": false,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "Alarm",
+        "label": "High Pressure",
+        "priority": "High"
+      }
+    ],
+    "name": "AlarmTest_Tag",
+    "defaultValue": 55,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Boolean",
+    "alarms": [
+      {
+        "activePipeline": "TestProject/New Pipeline",
+        "name": "AlarmEmail",
+        "priority": "High"
+      }
+    ],
+    "name": "SMTP_Notification",
+    "defaultValue": true,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "memTag4",
+    "defaultValue": 23,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Boolean",
+    "name": "memTag5",
+    "defaultValue": true,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "memTag6_ScriptTesting",
+    "defaultValue": 13,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "String",
+    "name": "memTag7_readWriteTest",
+    "defaultValue": "333",
+    "tagType": "AtomicTag"
+  }
+]

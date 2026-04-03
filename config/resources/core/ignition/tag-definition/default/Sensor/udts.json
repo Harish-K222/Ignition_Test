@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Sensor 1",
+    "typeId": "Sensore",
+    "parameters": {
+      "SensorNum": {
+        "dataType": "Integer",
+        "value": 1
+      }
+    },
+    "tagType": "UdtInstance",
+    "tags": [
+      {
+        "name": "Humidity",
+        "value": 0,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Temprature",
+        "value": 0,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Sensor 2",
+    "typeId": "Sensore",
+    "parameters": {
+      "SensorNum": {
+        "dataType": "Integer",
+        "value": 2
+      }
+    },
+    "tagType": "UdtInstance",
+    "tags": [
+      {
+        "name": "Humidity",
+        "value": 0,
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Temprature",
+        "value": 0,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Sensor 3",
+    "typeId": "Sensore",
+    "parameters": {
+      "SensorNum": {
+        "dataType": "Integer",
+        "value": 3
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "FancySensor 1",
+    "typeId": "FancySensor",
+    "parameters": {
+      "SensorNum": {
+        "dataType": "Integer",
+        "value": 1
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Tank2",
+    "typeId": "Tank",
+    "parameters": {
+      "Sensor": {
+        "dataType": "Integer",
+        "value": 2
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

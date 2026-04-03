@@ -1,0 +1,19 @@
+{
+  "custom": {},
+  "params": {
+    "level": 50
+  },
+  "propConfig": {
+    "params.level": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {},
+  "root": {
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

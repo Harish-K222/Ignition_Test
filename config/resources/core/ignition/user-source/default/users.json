@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "uuid": "7",
+      "username": "Admin",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[9FB244FD]991bef6957aea20013be66c99bef4edd0d301b3f53a7ad2c23279aff4bfdeb4a",
+      "passwordDate": "20260320.164500951+0530",
+      "passwordHistory": [],
+      "createdDate": "20260402.165824502+0530",
+      "lastModifiedDate": "20260402.165824502+0530",
+      "roles": [
+        "6d540ba8-18b5-4bad-b27a-4f3e87b42acf",
+        "a33b35d2-175f-453c-8dec-abe26a69c0c3",
+        "252f3c80-8eae-41bd-a806-cc4172f5e28b"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "9",
+      "username": "Oper",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[EFBE6774]3328ba06dfb47129c29338da4c9e92dbe5cb0bf66630ebb9312918fba4a03162",
+      "passwordDate": "20260320.160650415+0530",
+      "passwordHistory": [],
+      "createdDate": "20260402.165824502+0530",
+      "lastModifiedDate": "20260402.165824502+0530",
+      "roles": [
+        "252f3c80-8eae-41bd-a806-cc4172f5e28b"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "10",
+      "username": "Manager",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[B7F98AAD]1fcfbc5b209221d3b71826a26a579b65180ebf45528ced10e0acb434a86bf987",
+      "passwordDate": "20260320.160713592+0530",
+      "passwordHistory": [],
+      "createdDate": "20260402.165824502+0530",
+      "lastModifiedDate": "20260402.165824502+0530",
+      "roles": [
+        "a33b35d2-175f-453c-8dec-abe26a69c0c3"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "6d540ba8-18b5-4bad-b27a-4f3e87b42acf",
+      "rolename": "Administrator",
+      "description": "",
+      "createdDate": "20260402.165824502+0530",
+      "lastModifiedDate": "20260402.165824502+0530"
+    },
+    {
+      "uuid": "252f3c80-8eae-41bd-a806-cc4172f5e28b",
+      "rolename": "Operator",
+      "description": "",
+      "createdDate": "20260402.165824502+0530",
+      "lastModifiedDate": "20260402.165824502+0530"
+    },
+    {
+      "uuid": "a33b35d2-175f-453c-8dec-abe26a69c0c3",
+      "rolename": "Manager",
+      "description": "",
+      "createdDate": "20260402.165824502+0530",
+      "lastModifiedDate": "20260402.165824502+0530"
+    }
+  ]
+}

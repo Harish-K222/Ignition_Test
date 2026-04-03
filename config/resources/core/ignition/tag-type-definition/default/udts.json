@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Sensore",
+    "parameters": {
+      "SensorNum": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "name": "Humidity",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Temprature",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "FancySensor",
+    "typeId": "Sensore",
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "name": "Pressure",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Tank",
+    "parameters": {
+      "Sensor": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "name": "Level",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Sensor",
+        "typeId": "Sensore",
+        "parameters": {
+          "SensorNum": {
+            "dataType": "Integer",
+            "value": {
+              "bindType": "parameter",
+              "binding": "{Sensor}"
+            }
+          }
+        },
+        "tagType": "UdtInstance"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Volume",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]
