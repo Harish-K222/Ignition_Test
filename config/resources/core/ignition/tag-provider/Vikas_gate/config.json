@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "allowBackfill": false,
+    "enableTagReferenceStore": true,
+    "type": "REMOTE"
+  },
+  "settings": {
+    "alarmMode": "Queried",
+    "alarmStatusEnabled": true,
+    "historyDriverName": "",
+    "historyMode": "GatewayNetwork",
+    "historyProviderName": "",
+    "remoteProviderName": "default",
+    "serverName": "Ignition-dev08509-001"
+  }
+}

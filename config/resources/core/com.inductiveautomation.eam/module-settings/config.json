@@ -1,5 +1,6 @@
 {
   "agentSettings": {
+    "controllerServerId": "",
     "forwardLeasedLicense": false,
     "httpConnectTimeout": 10,
     "httpReadTimeout": 60,
@@ -7,11 +8,13 @@
   },
   "controllerSettings": {
     "archiveLocationMode": "Automatic",
+    "archivePath": "",
     "backupRetentionAge": 0,
     "backupRetentionTimeUnit": "Days",
+    "datasource": "MySql_test1",
     "eventTableName": "agent_events",
     "lowDiskThresholdMB": 1024,
     "maxRetainedBackupCount": 5
   },
-  "installMode": "NotInstalled"
+  "installMode": "Controller"
 }

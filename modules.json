@@ -1,4 +1,28 @@
 {
+  "com.cirruslink.mqtt.distributor.gateway": {
+    "filename": "C:\\Program Files\\Inductive Automation\\Ignition\\user-lib\\modules\\MQTT-Distributor-signed.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "b3d50508d45e1703dea19b80f6cdc3d7030c1f03",
+    "licenseAgreementHash": 2517188037
+  },
+  "com.cirruslink.mqtt.engine.gateway": {
+    "filename": "C:\\Program Files\\Inductive Automation\\Ignition\\user-lib\\modules\\MQTT-Engine-signed.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "b3d50508d45e1703dea19b80f6cdc3d7030c1f03",
+    "licenseAgreementHash": 1007003261
+  },
+  "com.cirruslink.mqtt.transmission.gateway": {
+    "filename": "C:\\Program Files\\Inductive Automation\\Ignition\\user-lib\\modules\\MQTT-Transmission-signed.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "b3d50508d45e1703dea19b80f6cdc3d7030c1f03",
+    "licenseAgreementHash": 3030495539
+  },
+  "com.cirruslink.record.gateway": {
+    "filename": "C:\\Program Files\\Inductive Automation\\Ignition\\user-lib\\modules\\MQTT-Recorder-signed.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "b3d50508d45e1703dea19b80f6cdc3d7030c1f03",
+    "licenseAgreementHash": 12231748
+  },
   "com.inductiveautomation.alarm-notification": {
     "filename": "C:\\Program Files\\Inductive Automation\\Ignition\\user-lib\\modules\\Alarm Notification-module.modl",
     "onStartup": "enabled",

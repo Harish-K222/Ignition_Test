@@ -34,6 +34,62 @@
       "maxActive": -1,
       "queueId": "_proxy_",
       "timeoutMillis": 3600000
+    },
+    {
+      "description": "Provides some information about a remote machine, such as the reachable URL",
+      "friendlyName": "Remote Gateway Info",
+      "maxActive": -1,
+      "queueId": "service_GanNodeDetailsService",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Handles EAM system messages and status updates",
+      "friendlyName": "EAM",
+      "maxActive": -1,
+      "queueId": "EAM",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Sends EAM agent initial contact information to the controller",
+      "friendlyName": "EAM Status Event Service",
+      "maxActive": -1,
+      "queueId": "service_StatusEventService",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Processes Gateway backups, projects and modules for EAM backup tasks",
+      "friendlyName": "EAM Backup Service",
+      "maxActive": -1,
+      "queueId": "service_BackupService",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Provides functions to access and edit remote tags across the Gateway Network",
+      "friendlyName": "Remote Tags",
+      "maxActive": -1,
+      "queueId": "service_TagProviderService2",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Retrieves tag historical data over the Gateway Network",
+      "friendlyName": "Tag History",
+      "maxActive": -1,
+      "queueId": "service_TagHistoryService",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Performs alarm queries and manages alarm subscriptions over the Gateway Network",
+      "friendlyName": "Alarm Query Provider Service",
+      "maxActive": -1,
+      "queueId": "service_AlarmQueryProviderService",
+      "timeoutMillis": 60000
+    },
+    {
+      "description": "Handles tag value change events",
+      "friendlyName": "Tag Value Publishing",
+      "maxActive": -1,
+      "queueId": "_tagValuePublishing_",
+      "timeoutMillis": 60000
     }
   ]
 }

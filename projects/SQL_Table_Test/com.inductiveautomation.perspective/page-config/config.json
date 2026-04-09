@@ -2,7 +2,7 @@
   "pages": {
     "/": {
       "title": "",
-      "viewPath": "View1"
+      "viewPath": "POPUP VIEWS/EmployeeInfo"
     },
     "/page1": {
       "title": "",

@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Edit.jpg"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "JPEG",
+    "lastModification": {
+      "actor": "Admin",
+      "timestamp": "2026-04-03T11:25:12Z"
+    },
+    "size": 2938,
+    "lastModificationSignature": "e43ebbd4ea8decdecf4f75d4bae629b24147b938cc57767244e2f9b16a102b62",
+    "height": 0
+  }
+}

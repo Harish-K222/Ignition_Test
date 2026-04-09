@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Delete.jpg"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "JPEG",
+    "lastModification": {
+      "actor": "Admin",
+      "timestamp": "2026-04-03T11:25:32Z"
+    },
+    "size": 2781,
+    "lastModificationSignature": "f1caab96cb6fa069741dfd46c6deadce4c259c02525612d2d42bcaa1620aaccb",
+    "height": 0
+  }
+}
