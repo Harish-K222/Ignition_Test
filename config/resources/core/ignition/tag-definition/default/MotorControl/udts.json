@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Motor 1",
+    "typeId": "Motor",
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 2",
+    "typeId": "Motor",
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 3",
+    "typeId": "Motor",
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 5",
+    "typeId": "Motor",
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 4",
+    "typeId": "Motor",
+    "tagType": "UdtInstance"
+  }
+]

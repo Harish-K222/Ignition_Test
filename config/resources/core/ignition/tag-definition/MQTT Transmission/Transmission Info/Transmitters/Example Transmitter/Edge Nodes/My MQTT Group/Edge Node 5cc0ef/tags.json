@@ -2,24 +2,6 @@
   {
     "usr": {
       "readOnly": true,
-      "dataType": "DateTime",
-      "writePermissions": {
-        "type": "AllOf",
-        "securityLevels": []
-      },
-      "documentation": "The time at which the last Edge Node refresh request was completed",
-      "readPermissions": {
-        "type": "AllOf",
-        "securityLevels": []
-      },
-      "enabled": true
-    },
-    "name": "Last Refresh",
-    "tagType": "AtomicTag"
-  },
-  {
-    "usr": {
-      "readOnly": true,
       "dataType": "Int8",
       "writePermissions": {
         "type": "AllOf",
@@ -34,6 +16,24 @@
       "engUnit": "bytes"
     },
     "name": "Total Bytes Xmit",
+    "tagType": "AtomicTag"
+  },
+  {
+    "usr": {
+      "readOnly": false,
+      "dataType": "Boolean",
+      "writePermissions": {
+        "type": "AllOf",
+        "securityLevels": []
+      },
+      "documentation": "A writable tag to reset the metrics for this Edge Node",
+      "readPermissions": {
+        "type": "AllOf",
+        "securityLevels": []
+      },
+      "enabled": true
+    },
+    "name": "Reset Metrics",
     "tagType": "AtomicTag"
   },
   {
@@ -58,24 +58,6 @@
   {
     "usr": {
       "readOnly": true,
-      "dataType": "Int8",
-      "writePermissions": {
-        "type": "AllOf",
-        "securityLevels": []
-      },
-      "documentation": "The number of messages sent by the Edge Node since the last time the metrics were reset via the Edge Node Reset Metrics tag",
-      "readPermissions": {
-        "type": "AllOf",
-        "securityLevels": []
-      },
-      "enabled": true
-    },
-    "name": "Total Mesg Xmit",
-    "tagType": "AtomicTag"
-  },
-  {
-    "usr": {
-      "readOnly": true,
       "dataType": "DateTime",
       "writePermissions": {
         "type": "AllOf",
@@ -93,20 +75,38 @@
   },
   {
     "usr": {
-      "readOnly": false,
-      "dataType": "Boolean",
+      "readOnly": true,
+      "dataType": "DateTime",
       "writePermissions": {
         "type": "AllOf",
         "securityLevels": []
       },
-      "documentation": "A writable tag to reset the metrics for this Edge Node",
+      "documentation": "The time at which the last Edge Node refresh request was completed",
       "readPermissions": {
         "type": "AllOf",
         "securityLevels": []
       },
       "enabled": true
     },
-    "name": "Reset Metrics",
+    "name": "Last Refresh",
+    "tagType": "AtomicTag"
+  },
+  {
+    "usr": {
+      "readOnly": true,
+      "dataType": "Int8",
+      "writePermissions": {
+        "type": "AllOf",
+        "securityLevels": []
+      },
+      "documentation": "The number of messages sent by the Edge Node since the last time the metrics were reset via the Edge Node Reset Metrics tag",
+      "readPermissions": {
+        "type": "AllOf",
+        "securityLevels": []
+      },
+      "enabled": true
+    },
+    "name": "Total Mesg Xmit",
     "tagType": "AtomicTag"
   },
   {

@@ -1,5 +1,27 @@
 [
   {
+    "name": "Motor",
+    "typeId": "",
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "name": "Current",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Speed",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Temprature",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
     "name": "Sensore",
     "parameters": {
       "SensorNum": {
@@ -17,18 +39,6 @@
       {
         "valueSource": "memory",
         "name": "Temprature",
-        "tagType": "AtomicTag"
-      }
-    ]
-  },
-  {
-    "name": "FancySensor",
-    "typeId": "Sensore",
-    "tagType": "UdtType",
-    "tags": [
-      {
-        "valueSource": "memory",
-        "name": "Pressure",
         "tagType": "AtomicTag"
       }
     ]
@@ -65,6 +75,18 @@
       {
         "valueSource": "memory",
         "name": "Volume",
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "FancySensor",
+    "typeId": "Sensore",
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "name": "Pressure",
         "tagType": "AtomicTag"
       }
     ]
